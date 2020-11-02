@@ -13,7 +13,7 @@ Feature:Add new payee under pay bills
       |Payee details  | XYZ account                             |
     Then message The new payee The Law Offices of Hyde, Price & Scharks was successfully created. should be displayed
 
-
+  @reg
   Scenario Outline: Add a new payee  <Paye Name>
     Given Add New Payee tab
     When the user write "<Payee Name>" in name box

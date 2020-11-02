@@ -16,7 +16,7 @@ Feature:
    # And the results table should only not contain transactions dated "2012-09-01"
 
 
-  @wip
+
   Scenario: Search description
     Given the user accesses the Find Transactions tab
     When the user enters description "ONLINE"
